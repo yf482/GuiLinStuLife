@@ -8,11 +8,39 @@
   <servlet>
     <servlet-name>LoginServlet</servlet-name>
     <servlet-class>com.glife.front.servlet.LoginServlet</servlet-class>
+    <init-param>
+    	<param-name>encoding</param-name>
+    	<param-value>UTF-8</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>cfg</param-name>
+    	<param-value>yunfeng</param-value>
+    </init-param>
   </servlet>
   <servlet>
     <servlet-name>ValidationCode</servlet-name>
     <servlet-class>com.glife.front.servlet.ValidationCode</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>ServletDemo1</servlet-name>
+    <servlet-class>com.glife.front.servlet.ServletDemo1</servlet-class>
+    <init-param>
+    	<param-name>encoding</param-name>
+    	<param-value>UTF-8</param-value>
+    </init-param>
+    <init-param>
+    	<param-name>cfg</param-name>
+    	<param-value>yunfeng</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImgServlet</servlet-name>
+    <servlet-class>com.glife.front.servlet.ImgServlet</servlet-class>
+  </servlet>
+
+
  
 
 
@@ -23,6 +51,14 @@
   <servlet-mapping>
     <servlet-name>ValidationCode</servlet-name>
     <url-pattern>/servlet/ValidationCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletDemo1</servlet-name>
+    <url-pattern>/servlet/ServletDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImgServlet</servlet-name>
+    <url-pattern>/servlet/ImgServlet</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
