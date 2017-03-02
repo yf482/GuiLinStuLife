@@ -1,4 +1,4 @@
-package com.glife.utils;
+package com.glife.web.utils;
 import java.lang.reflect.Field;  
 import java.sql.Connection;  
 import java.sql.DriverManager;  

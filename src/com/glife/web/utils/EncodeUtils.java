@@ -1,4 +1,4 @@
-package com.glife.web.util.test;
+package com.glife.web.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

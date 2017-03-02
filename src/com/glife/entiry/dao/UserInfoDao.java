@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.glife.entity.UserInfo;
-import com.glife.utils.JdbcUtils;
+import com.glife.web.utils.JdbcUtils;
 
 public class UserInfoDao {
 	

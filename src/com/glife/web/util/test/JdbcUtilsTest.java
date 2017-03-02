@@ -1,4 +1,4 @@
-package com.glife.utils;
+package com.glife.web.util.test;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -8,6 +8,7 @@ import java.util.Map;
 import org.junit.Test;
 
 import com.glife.entity.UserInfo;
+import com.glife.web.utils.JdbcUtils;
 
 public class JdbcUtilsTest {
 	JdbcUtils jdbcUtils = JdbcUtils.getInstance();
